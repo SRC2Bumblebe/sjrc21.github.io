@@ -1,0 +1,26 @@
+{
+  "name": "3d-modeling-services-by-sjrc-designs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-samples": "node generate-samples.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/model-viewer": "^4.4.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "fflate": "^0.8.3",
+    "mime-types": "^3.0.2",
+    "multer": "^2.4.0",
+    "qrcode": "^1.5.4",
+    "three": "^0.186.1",
+    "uuid": "^14.0.3"
+  }
+}
